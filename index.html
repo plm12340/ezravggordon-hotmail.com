@@ -1,343 +1,96 @@
 <!DOCTYPE html>
-<!-- saved from url=(0016)http://yy61.top/ -->
-<html lang="en" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html>
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="MobileOptimized" content="320">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>明星网红嘿料分享总站</title>
-    <meta name="description" content="Arion — This is the best dashboard">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Arion — This is the best dashboard">
-    <meta name="apple-mobile-web-app-title" content="Arion Admin Dashboard">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="robots" content="noindex, nofollow">
-    <script charset="UTF-8" id="LA_COLLECT" src="./明星网红嘿料分享总站_files/sdk.51.la_js-sdk-pro.min.js"></script>
-    <script>LA.init({id:"3GNHqw0ITr40puqj",ck:"3GNHqw0ITr40puqj"})</script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.onkeydown = function () {
-                var e = window.event || arguments[0]
-                //屏蔽F12
-                if (e.keyCode == 123) {
-                    return false
-                    //屏蔽Ctrl+Shift+I
-                } else if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-                    return false
-                    //屏蔽Shift+F10
-                } else if (e.shiftKey && e.keyCode == 121) {
-                    return false
-                }
-            }
-            //屏蔽右键单击
-            document.oncontextmenu = function () {
-                return false
-            }
-        }
-    </script>
-
-    <style data-tippy-stylesheet="">
-        .tippy-box[data-animation=fade][data-state=hidden] {
-            opacity: 0
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>私密交友圣地</title>
+    <title> </title>
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
         }
 
-        [data-tippy-root] {
-            max-width: calc(100vw - 10px)
+        body {
+            background: #eee;
+            color: #000000;
+            font-size: 16px;
         }
 
-        .tippy-box {
-            position: relative;
-            background-color: #333;
-            color: #fff;
-            border-radius: 4px;
-            font-size: 14px;
-            line-height: 1.4;
-            outline: 0;
-            transition-property: transform, visibility, opacity
+        .code-box{
+            background-color: #FFFFFF;
+            margin: 20px;
+            word-break: break-all;
+            box-sizing: border-box;
+            padding: 30px 20px;
+            border-radius: 6px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
-        .tippy-box[data-placement^=top]>.tippy-arrow {
-            bottom: 0
+        .code-title{
+            font-weight: bolder;
+            margin-bottom: 20px;
+            font-size: 18px;
         }
 
-        .tippy-box[data-placement^=top]>.tippy-arrow:before {
-            bottom: -7px;
-            left: 0;
-            border-width: 8px 8px 0;
-            border-top-color: initial;
-            transform-origin: center top
+        .code-qrcode{
+            margin-bottom: 20px;
         }
 
-        .tippy-box[data-placement^=bottom]>.tippy-arrow {
-            top: 0
+        img{
+            max-width: calc(100% - 10px);
         }
-
-        .tippy-box[data-placement^=bottom]>.tippy-arrow:before {
-            top: -7px;
-            left: 0;
-            border-width: 0 8px 8px;
-            border-bottom-color: initial;
-            transform-origin: center bottom
+        #safety{
+            width: 100%;
+            height: 45px;
+            background: #e8fef2;
+            position: fixed;
+            top: 0;
         }
-
-        .tippy-box[data-placement^=left]>.tippy-arrow {
-            right: 0
+        .icon {
+            width: 26px;
+            height: 26px;
+            float: left;
+            background: url("./img/renzheng.png")no-repeat;
+            margin: 9.5px 9.5px;
         }
-
-        .tippy-box[data-placement^=left]>.tippy-arrow:before {
-            border-width: 8px 0 8px 8px;
-            border-left-color: initial;
-            right: -7px;
-            transform-origin: center left
-        }
-
-        .tippy-box[data-placement^=right]>.tippy-arrow {
-            left: 0
-        }
-
-        .tippy-box[data-placement^=right]>.tippy-arrow:before {
-            left: -7px;
-            border-width: 8px 8px 8px 0;
-            border-right-color: initial;
-            transform-origin: center right
-        }
-
-        .tippy-box[data-inertia][data-state=visible] {
-            transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
-        }
-
-        .tippy-arrow {
-            width: 16px;
-            height: 16px;
-            color: #333
-        }
-
-        .tippy-arrow:before {
-            content: "";
-            position: absolute;
-            border-color: transparent;
-            border-style: solid
-        }
-
-        .tippy-content {
-            position: relative;
-            padding: 5px 9px;
-            z-index: 1
-        }
-    </style>
-    <link rel="stylesheet" href="./明星网红嘿料分享总站_files/vendor.min.css">
-    <link rel="stylesheet" href="./明星网红嘿料分享总站_files/common.css">
-    <style>
-        button:hover {
-            background-color: #3e8e41;
-        }
-
-
-        .p-center {
-            text-align: center;
-        }
-
-        .p-step {
-            font-size: 11pt;
-            color: rgb(224, 62, 45);
-            font-weight: bold;
-        }
-
-        h3 {
-            font-size: 14pt;
-            color: rgb(224, 62, 45);
-            font-weight: bold;
-        }
-
-        .problem {
-            color: rgb(22, 145, 73);
-            font-weight: bold;
-        }
-
-        .proplem h3 {
-            font-size: 14pt;
-        }
-
-        .masked {
-            background-image: -webkit-linear-gradient(left,
-                    #3498db,
-                    #f47920 10%,
-                    #d71345 20%,
-                    #f7acbc 30%,
-                    #ffd400 40%,
-                    #3498db 50%,
-                    #f47920 60%,
-                    #d71345 70%,
-                    #f7acbc 80%,
-                    #ffd400 90%,
-                    #3498db);
-            color: transparent;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-size: 200% 100%;
-            animation: masked-animation 2s infinite linear;
-        }
-
-        @keyframes masked-animation {
-            0% {
-                background-position: 0 0;
-            }
-
-            100% {
-                background-position: -100% 0;
-            }
+        .text{
+            width: calc(100% - 45px);
+            height: 45px;
+            float: left;
+            color: rgba(7,193,96);
+            font-size: 15px;
+            line-height: 45px;
         }
     </style>
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?2c6ec25327b580a5c19f1fa874574bf3";
+  hm.src = "https://hm.baidu.com/hm.js?714bbd78d9b251610d81ee5b2187a967";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
 </head>
-
-<body class="load" ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false" style="padding-top:20px">
-    <div class="sidebar-backdrop"></div>
-    <div class="page-wrapper">
-        <main class="page-content">
-            <div class="container">
-                <div class="card add-product card--content-center">
-                    <div class="card card-order">
-                        <div class="card__wrapper">
-                            <div class="card__container">
-                                <div class="order-messages">
-
-                                    <p class="p-center">
-                                        <span style="font-size: 24pt; color: rgb(224, 62, 45);">精彩大瓜每日更新</span>
-                                    </p>
-                                    <p class="p-center"><span style="color: rgb(45, 194, 107);"><strong>【永久回家地址 → t3z.lol
-                                                ←】<br>
-                                            </strong></span></p>
-                                    <p class="p-center"><strong>🔥内部获取通道🔥</strong></p>
-                                        <p class="p-left">
-                                            
-                                            视频画面敏感容易被风控，抖音极速版审核较为宽松，所有资源均在【<span style="color: rgb(224, 62, 45);">抖音极速版</span>】私密作品合集中，每日更新，无偿分享3000＋全网明星网红🍉
-                                          
-                                        </p>
-                                        <h3><span id="date">11-07</span>最新更新热🍉</h3>
-                                        <p>
-                                            🔥女超人后续完整 🔥双马尾落地窗暮云酒店 <br>
-                                            🔥小童瑶瑶酒店完整<br>
-                                            🔥刘飞儿-沫子-程女-绿茶-合集 🔥直男平板锁完整版<br>
-                                            🔥周姐PGone酒店完整版 🔥云朵酒店完整版<br>
-                                            🔥Lisa疯马秀彩排完整版 🔥军训舞蹈晚会现场<br>
-                                            🔥小羊没烦恼完整版 🔥白姨完整版<br>
-                                            🔥陈妮妮微密圈合集 🔥程女士完整视频<br>
-                                            🔥张娜英视频完整版 🔥缅甸火车最新视频<br>
-                                            🔥秃仔1v4视频 🔥女v女激烈奋战<br>
-                                            🔥古力娜扎不雅视频被曝后续<br>
-                                            🔥江疏影 🔥戴局长 🔥爸爸和女儿<br>
-                                            🔥阿朱房间画面 🔥户外婷儿合集<br>
-                                            🔥张津瑜完整三部曲<br>
-                                            🔥各网红热门事件及各大校园
-                                        </p>
-                                        <p>你想要的都有......</p>
-                                        <h3 class="p-center">🔒三步解锁流程👇</h3>
-                                        <p class="p-step">
-                                            ①：截图或者长按保存👇作品分享码!
-                                        </p>
-                                        <p class="p-step">
-                                            ②：应用市场下载并登录【<span style="color: rgb(12, 97, 47);font-size: 13pt;font-weight: bolder;">抖音极速版</span>】
-                                        </p>
-                                        <p class="p-step">
-                                            ③：打开抖音极速版扫一扫保存的作品分享码!
-                                        </p>
-
-                                        <p>
-                                        </p><h3 class="masked p-center">
-                                            👇 主作品分享码👇
-                                        </h3>
-                                        <span class="p-center">
-                                            <img id="qr-image" src="./明星网红嘿料分享总站_files/qrcode-1.jpg" height="100">
-                                        </span>
-                                        <p></p>
-                                        
-                                        <div id="second-qr" style="display: block;">
-                                            <p class="p-step">
-                                               请注意：当扫上面【主作品分享码】出现扫码异常或者扫码后没有解锁时，
-                                                可尝试通过扫一扫下面的【备用作品分享码】解锁，备用码作品更新较慢，
-                                                请一定先扫【主作品分享码】快速吃🍉！！！
-                                            </p>
-                                            <p>
-                                            </p><h3 class="masked p-center">
-                                                👇 备用作品分享码👇
-                                            </h3>
-                                            <span class="p-center">
-                                                <img id="second-qr-image" src="./明星网红嘿料分享总站_files/qrcode-2.jpg" height="100">
-                                            </span>
-                                            <p></p>
-                                        </div>
-                                            
-                                        
-                                        
-                                        <p>
-                                        <span class="p-center"><img src="./明星网红嘿料分享总站_files/2.jpg" alt=""></span>
-                                        </p>
-
-
-                                        <h3 class="p-center">解🔒文件如下图👇</h3>
-                                        <p>
-                                            <img src="./明星网红嘿料分享总站_files/3.jpg" alt="">
-                                        </p>
-                                        <p>
-                                            <img src="./明星网红嘿料分享总站_files/4.jpg" alt="">
-                                            <img src="./明星网红嘿料分享总站_files/5.jpg" alt="">
-                                            <img src="./明星网红嘿料分享总站_files/6.jpg" alt="">
-                                        </p>
-                                        <p>
-                                            <img src="./明星网红嘿料分享总站_files/8.jpg" alt="">
-                                            <img src="./明星网红嘿料分享总站_files/9.jpg" alt="">
-                                        </p>
-
-                                        <div class="prolem">
-                                            <h3 class="p-center">【解锁失败异常与解决方案】</h3>
-                                            <p>💢由于在线领取瓜友较多，可能会造成小部分瓜友因系统繁忙而提示扫码异常，请等半个小时后再次登录本站获取最新分享码然后再扫一扫。</p>
-                                        </div>
-
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+<body>
+<div id="safety">
+    <div class="icon"></div>
+    <div class="text">二维码已通过安全验证</div>
+</div>
+<div class="code-box">
+        <div class="code-qrcode">
+        <a href="http://27a8e.xnmaqjf.museum.mw/yyfyD816/61386.html">
+            <img src="1.jpg" />
+        </a>
+        <div style="text-align:center;">点击识别二维码找我</div>
     </div>
-
-    <footer>
-        <p>
-        <script type="text/javascript">
-            const now = new Date();
-            const month = now.getMonth() + 1;
-            const date = now.getDate();
-            
-            document.getElementById("date").innerHTML = (month<10 ? "0" + month : month) + "-" + (date<10 ? "0" + date : date);
-            
-            const isMobile = /Android|iPhone|iPad|iPod|HarmonyOS/i.test(navigator.userAgent);
-            if (!isMobile) {
-               // window.location.href = "./error.html";
-            }
-            
-            document.getElementById("qr-image").src = "./image/qrcode-1.jpg?t=" + now.getTime();
-            document.getElementById("second-qr-image").src = "./image/qrcode-2.jpg?t=" + now.getTime();
-        </script>
-        </p>
-    </footer>
-
-
-    
-
-
-
-</body></html>
+    </div>
+</body>
+</html>
